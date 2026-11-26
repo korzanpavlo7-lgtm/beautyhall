@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#9d7658">
+    <meta name="description" content="BeautyHall — салон краси для догляду за собою, манікюру, педикюру, стрижок та масажу.">
+    <link rel="canonical" href="https://beautyhall-cv.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BeautyHall — салон краси">
+    <meta property="og:description" content="Манікюр, педикюр, масаж та стрижки у затишному салоні BeautyHall.">
+    <meta property="og:url" content="https://beautyhall-cv.com/">
+    <meta property="og:locale" content="uk_UA">
+    <title>BeautyHall — салон краси</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a class="logo" href="#top" aria-label="BeautyHall — на початок">Beauty<span>Hall</span></a>
+            <nav class="nav-links" aria-label="Головна навігація">
+                <a href="#services">Послуги</a>
+                <a href="#about">Про нас</a>
+                <a href="#gallery">Роботи</a>
+                <a href="#contact">Контакти</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="nav-book" href="#booking">Записатися</a>
+                <button class="hamburger" id="hamburger" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobileMenu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <nav class="mobile-menu" id="mobileMenu" aria-label="Мобільна навігація">
+            <a href="#services">Послуги</a>
+            <a href="#about">Про нас</a>
+            <a href="#gallery">Роботи</a>
+            <a href="#contact">Контакти</a>
+            <a class="mobile-book" href="#booking">Записатися онлайн</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-image" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <p class="eyebrow">КРАСА · ДОГЛЯД · КОМФОРТ</p>
+                    <h1 id="hero-title">Час бути<br><em>собою</em></h1>
+                    <p class="hero-lead">Простір краси та турботи, де кожна деталь працює для вашого гарного настрою.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#booking">Забронювати час</a>
+                        <a class="button button-ghost" href="#services">Дивитися послуги</a>
+                    </div>
+                </div>
+                <div class="hero-note">
+                    <span class="hero-note-line"></span>
+                    <p>Індивідуальний підхід<br>до кожної клієнтки</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" aria-label="Переваги салону">
+            <div class="container benefits-grid">
+                <div><strong>Якість</strong><span>Сертифіковані матеріали</span></div>
+                <div><strong>Турбота</strong><span>Комфортна атмосфера</span></div>
+                <div><strong>Досвід</strong><span>Професійні майстри</span></div>
+            </div>
+        </section>
+
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">НАШІ ПОСЛУГИ</p>
+                        <h2>Догляд для краси та настрою</h2>
+                    </div>
+                    <p>Створюємо образи, які підкреслюють вашу природну впевненість.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-number">01</div>
+                        <div>
+                            <h3>Манікюр</h3>
+                            <p>Класичний, апаратний та доглядові процедури з ідеальною хімією покриття.</p>
+                        </div>
+                        <a href="#booking" aria-label="Записатися на манікюр">Записатися <span>→</span></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-number">02</div>
+                        <div>
+                            <h3>Педикюр</h3>
+                            <p>Турботлива й безпечна процедура для здорових, доглянутих стоп.</p>
+                        </div>
+                        <a href="#booking" aria-label="Записатися на педикюр">Записатися <span>→</span></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-number">03</div>
+                        <div>
+                            <h3>Масаж</h3>
+                            <p>Релакс та терапевтичні техніки для відновлення балансу й легкості.</p>
+                        </div>
+                        <a href="#booking" aria-label="Записатися на масаж">Записатися <span>→</span></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-number">04</div>
+                        <div>
+                            <h3>Стрижки</h3>
+                            <p>Жіночі та чоловічі стрижки з урахуванням вашого стилю та форми обличчя.</p>
+                        </div>
+                        <a href="#booking" aria-label="Записатися на стрижку">Записатися <span>→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=85" alt="Інтер'єр салону краси">
+                </div>
+                <div class="about-content">
+                    <p class="eyebrow">ПРО BEAUTYHALL</p>
+                    <h2>Місце, де про вас дбають</h2>
+                    <p>BeautyHall — це затишний простір, у якому поєднали професіоналізм, уважність та відчуття турботи.</p>
+                    <p>Ми беремо час, щоб зрозуміти ваші побажання й підібрати догляд саме для вас.</p>
+                    <div class="owner">
+                        <span class="owner-mark">B</span>
+                        <div>
+                            <strong>Коржан Олеся Іванівна</strong>
+                            <span>Власниця та майстер BeautyHall</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery section">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">НАШІ РОБОТИ</p>
+                        <h2>Краса в деталях</h2>
+                    </div>
+                    <a class="text-link" href="https://www.instagram.com/beauty_hall_cv/" target="_blank" rel="noopener">Більше в Instagram →</a>
+                </div>
+                <div class="gallery-grid">
+                    <figure class="gallery-item gallery-tall">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=85" alt="Манікюр">
+                        <figcaption>Манікюр</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?auto=format&fit=crop&w=900&q=85" alt="Укладання волосся">
+                        <figcaption>Зачіски</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85" alt="Процедура масажу">
+                        <figcaption>Масаж</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking section">
+            <div class="container booking-inner">
+                <div class="booking-copy">
+                    <p class="eyebrow">ОНЛАЙН-ЗАПИС</p>
+                    <h2>Залишіть заявку,<br>і ми вам <em>зателефонуємо</em></h2>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <label>
+                        <span>Ваше імʼя</span>
+                        <input type="text" name="name" placeholder="Наприклад, Олена" required autocomplete="name">
+                    </label>
+                    <label>
+                        <span>Номер телефону</span>
+                        <input type="tel" name="phone" placeholder="+380..." required autocomplete="tel">
+                    </label>
+                    <label>
+                        <span>Послуга</span>
+                        <select name="service" required>
+                            <option value="" selected disabled>Оберіть послугу</option>
+                            <option>Манікюр</option>
+                            <option>Педикюр</option>
+                            <option>Масаж</option>
+                            <option>Жіноча стрижка</option>
+                            <option>Чоловіча стрижка</option>
+                            <option>Інше</option>
+                        </select>
+                    </label>
+                    <button type="submit" class="button button-primary">Надіслати заявку</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container contact-grid">
+                <div>
+                    <p class="eyebrow">КОНТАКТИ</p>
+                    <h2>Будемо раді<br>вас бачити</h2>
+                </div>
+                <div class="contact-details">
+                    <div>
+                        <span>Телефон</span>
+                        <a href="tel:+380509887098">+380 50 988 70 98</a>
+                    </div>
+                    <div>
+                        <span>Графік роботи</span>
+                        <p>Щоденно, 09:00–19:00</p>
+                    </div>
+                    <div>
+                        <span>Адреса</span>
+                        <a href="https://maps.app.goo.gl/3HXE2WfT674NvyUm8" target="_blank" rel="noopener">Відкрити на Google Maps →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a class="logo footer-logo" href="#top">Beauty<span>Hall</span></a>
+            <p>© 2026 BeautyHall. Всі права захищені.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/beauty_hall_cv/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
