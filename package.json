@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Beautiful beauty salon website - Beauty Hall",
   "scripts": {
-    "build": "mkdir -p public && cp index.html styles.css script.js public/"
+    "build": "mkdir -p public/images && cp index.html styles.css script.js public/ && cp -R images/. public/images/"
   }
 }
